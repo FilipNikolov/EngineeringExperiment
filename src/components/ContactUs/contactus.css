@@ -1,0 +1,159 @@
+.contact-wrapper {
+  width: 80%;
+  height: 100%;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 10%;
+  gap: 20px;
+}
+.conctactus-left-side {
+  width: 50%;
+  height: 100%;
+}
+.title-contactus {
+  color: #007396;
+  width: 150px;
+  font-weight: 500;
+  display: flex;
+  border-left: 2px solid #007396;
+  padding: 5px !important;
+  margin: 0 !important;
+  border-right: 2px solid #007396;
+  text-transform: uppercase;
+}
+.conctactus-h1 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #003c4e;
+  margin: 0 !important;
+}
+.conctactus-left-side {
+  width: 50%;
+}
+.conctactus-text {
+  width: 90%;
+}
+.call-email {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 100px;
+}
+.phone-section {
+  display: flex;
+  flex-direction: column;
+}
+.icon-text {
+  font-weight: 500;
+  color: #003c4e;
+}
+.phone-r-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.number-mail {
+  font-weight: 400;
+  font-size: 20px;
+}
+.map-place {
+  width: 700px;
+  height: 520px;
+  margin-top: 40px;
+  border: 1px solid grey;
+}
+.contactus-right-side {
+  background-color: #e4ebf3;
+  width: 95%;
+  height: 100%;
+  padding: 0 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.title-dynamic {
+  color: #007396;
+  width: 280px;
+  font-weight: 500;
+  display: flex;
+  border-left: 2px solid #007396;
+  padding: 5px !important;
+  margin: 0 !important;
+  border-right: 2px solid #007396;
+  text-transform: uppercase;
+}
+
+.right-side-titles {
+  margin-top: 3rem;
+}
+.form-title {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.form-container {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.form-group {
+  flex: 1;
+}
+
+.form-group.full-width {
+  flex: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+.label-above {
+  color: #007396;
+  font-weight: 600;
+}
+textarea {
+  height: 100px;
+  resize: vertical; /* Allows vertical resizing only */
+}
+
+.send-msg-btn {
+  width: 100%;
+  padding: 15px 35px;
+  border-radius: 50px;
+  background-color: #007396;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.send-msg-btn:hover {
+  background-color: #005f73;
+  width: 100%;
+}
